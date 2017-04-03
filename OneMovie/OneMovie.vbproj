@@ -287,6 +287,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="as\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
