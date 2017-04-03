@@ -1,0 +1,140 @@
+﻿/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/* [START] Settings */
+
+/**
+ * Basic colors:
+ * =================== //
+ * Blue:    #0A46BD
+ * Pink:    #E91AF6
+ * Orange:  #DF5A1B
+ * Yellow:  #F5BE17
+ * Green:   #177C4F
+ * =================== //
+ */
+
+body {
+    padding-top: 50px;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF !important;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    background-color: #333333;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-content {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    background-color: #FFFFFF;
+}
+
+.top-padding {
+    padding-top: 30px;
+}
+
+.btn-warning {
+    background-color: #F5BE17 !important;
+    color: #FFFFFF !important;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #0A46BD !important;
+}
+
+.panel-warning > .panel-heading {
+    background-color: #F5BE17 !important;
+}
+
+.panel-danger > .panel-heading {
+    background-color: #DF5A1B !important;
+}
+
+.label-warning {
+    background-color: #F5BE17 !important;
+}
+
+.label-danger {
+    background-color: #DF5A1B;
+}
+
+/* [END] Settings */
+
+/* [START] Web Site Styles */
+
+.app-navbar {
+    background-color: #0A46BD;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.5);
+}
+
+.app-navbar .navbar-brand {
+    font-size: 22px !important;
+}
+
+.app-navbar .navbar-brand .logo {
+    height: 40px;
+    margin-top: -6px;
+}
+
+.app-navbar a,
+.app-navbar ul li a {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.app-navbar ul li a:hover,
+.app-navbar ul li a:active,
+.app-navbar ul li a:focus {
+    background-color: #0231b5;
+}
+
+#main-carousel .carousel-inner .img-responsive {
+    width: 100% !important;
+    height: 480px;
+}
+
+.app-list-of-movies .panel .description {
+    height: 120px;
+    max-height: 120px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+
+#main-carousel .carousel-inner .img-responsive {
+    width: 100% !important;
+    height: 220px;
+}
+
+}
+
+/* [END] Web Site Styles */
