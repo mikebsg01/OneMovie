@@ -12,7 +12,7 @@ Public Class RouteConfig
         routes.MapRoute( _
             name:="Pelicula",
             url:="Pelicula/{NombrePelicula}",
-            defaults:=New With {.controller = "Pelicula", .action = "Details", .NombrePelicula = UrlParameter.Optional}
+            defaults:=New With {.controller = "Pelicula", .action = "Detalles", .NombrePelicula = UrlParameter.Optional}
         )
 
         routes.MapRoute( _

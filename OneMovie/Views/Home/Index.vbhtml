@@ -129,7 +129,7 @@ End Code
                 </h3>
             </div>
             <div class="panel-body">
-                <a href="#" class="thumbnail">
+                <a href="/Pelicula/Power Rangers" class="thumbnail">
                     <img src="~/assets/images/movie-PowerRangers.jpg">
                 </a>
                 <div class="description">
@@ -155,7 +155,7 @@ End Code
                 </h3>
             </div>
             <div class="panel-body">
-                <a href="#" class="thumbnail">
+                <a href="/Pelicula/Un Jefe En Pañales" class="thumbnail">
                     <img src="~/assets/images/movie-UnJefeEnPañales.jpg">
                 </a>
                 <div class="description">
@@ -181,7 +181,7 @@ End Code
                 </h3>
             </div>
             <div class="panel-body">
-                <a href="#" class="thumbnail">
+                <a href="/Pelicula/La Vigilante del Futuro" class="thumbnail">
                     <img src="~/assets/images/movie-LaVigilanteDelFuturo.jpg">
                 </a>
                 <div class="description">
@@ -207,7 +207,7 @@ End Code
                 </h3>
             </div>
             <div class="panel-body">
-                <a href="#" class="thumbnail">
+                <a href="/Pelicula/La Bella Y La Bestia" class="thumbnail">
                     <img src="~/assets/images/movie-LaBellaYLaBestia.jpg">
                 </a>
                 <div class="description">
@@ -233,7 +233,7 @@ End Code
                 </h3>
             </div>
             <div class="panel-body">
-                <a href="#" class="thumbnail">
+                <a href="/Pelicula/3 Idiotas" class="thumbnail">
                     <img src="~/assets/images/movie-3Idiotas.jpg">
                 </a>
                 <div class="description">
@@ -259,7 +259,7 @@ End Code
                 </h3>
             </div>
             <div class="panel-body">
-                <a href="#" class="thumbnail">
+                <a href="/Pelicula/El Origen del Terror en Amityville" class="thumbnail">
                     <img src="~/assets/images/movie-ElOrigenDelTerrorEnAmityville.jpg">
                 </a>
                 <div class="description">

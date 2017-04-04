@@ -58,11 +58,20 @@ body {
 }
 
 .top-padding {
-    padding-top: 30px;
+    padding-top: 30px !important;
+}
+
+.top-margin {
+    margin-top: 15px !important;
 }
 
 .btn-warning {
     background-color: #F5BE17 !important;
+    color: #FFFFFF !important;
+}
+
+.btn-success {
+    background-color: rgb(47, 212, 120) !important;
     color: #FFFFFF !important;
 }
 
